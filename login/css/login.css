@@ -1,0 +1,102 @@
+.innerBox{
+    max-width:560px;
+    margin: 0 auto;
+    text-align: center;
+    position:relative;
+}
+.innerBox>h1{
+    padding-top: 50px;
+    width:100%;
+}
+.innerBox>h2{
+    font-size: 2em;
+    font-weight: 400;
+    color:#2f44c0;
+    margin:20px 0;
+}
+.loginType{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.loginType>li{
+    width:100%;
+    border:1px solid #b2b1b1;
+    padding:1% 2%;
+}
+.loginType>.active{
+    background-color: #2f44c0;
+}
+.loginType>.active>a{
+    color:white;
+}
+.loginType>li>a{
+    display: block;
+    font-size: 1.4em;
+    color: #000001;
+}.tabWrap{
+    position: relative;
+}
+.tabWrap>div{
+    width:100%;
+    position:absolute;
+    display:none;
+}
+.tabWrap>.member{
+    display: block;
+}
+.tabWrap>.nomember{
+    /* display: block; */
+}
+.tabWrap p>input{
+    border:2px solid #b2b1b1;
+    border-radius: 10px;
+    width:100%;
+    height: 30px;
+    text-indent:10px;
+    margin-bottom: 10px;
+}
+.tabWrap>.nomember>ul{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.tabWrap>.nomember>ul>li:first-child{
+    margin-right: 100px;
+}
+.tabWrap>.nomember>button{
+    margin-bottom: 30px;
+    background-color: #fff;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.search>li{
+    margin-right: 10px;
+}
+.search>li:last-child{
+    margin-right: 0;
+}
+button{
+    border:2px solid #2f44c0;
+    width:100%;
+    height:50px;
+    font-size: 1.2em;
+}
+.login>button{
+    margin-bottom: 10px;
+    background-color: #f4e1bc;
+}
+.join>button{
+    background-color: #fff;
+}
+.tabWrap button:hover{
+    background: #2f44c0;
+    color:white;
+}
+.tabWrap ul>li:hover a{
+    text-decoration: underline;
+    color:#2f44c0;
+}
