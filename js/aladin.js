@@ -71,22 +71,15 @@ $(function () {
     })
 
     //메뉴 나오고 들어가고
-    var button = false;
     $(".ham").on("click", function () {
-        if (button == false) {
-            // console.log("클릭")
-            $("#nav").stop().animate({
-                right: 0
-            }, 500)
-            button = true;
-        }
-        else {
-            $("#nav").stop().animate({
-                right: -100 + "%"
-            }, 500)
-            button = false;
-        }
-
+        $("#nav, .gnb .close img").stop().animate({
+            right: 0
+        }, 500)
+    })
+    $(".close").on("click", function () {
+        $("#nav, .gnb .close img").stop().animate({
+            right: -100 + "%"
+        }, 500)
     })
 
     //book
