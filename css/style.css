@@ -975,7 +975,7 @@ address>p{
     #nav{
         background-color: #130d42;
         position:fixed;
-        top: 40px;;
+        top: 0;
         right:-100%;
         display: block;
         width:90%;
