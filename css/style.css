@@ -29,6 +29,15 @@
     right:5px;
     top:10px;
 }
+.gnb .close img{
+    max-width: 25px;
+    width:100%;
+    position:absolute;
+    right:-100%;
+    top:10px;
+    z-index: 100000;
+    margin-right: 20px;
+}
 .headBottom{
     background:#f2f2f2;
 }
